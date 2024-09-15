@@ -1,0 +1,106 @@
+{
+  "orders": [
+    {
+      "id": "1",
+      "status": "delivered",
+      "customer": {
+        "name": "Frodo Baggins",
+        "phone_number": "+1234567890"
+      },
+      "total_sum": 11.99,
+      "payment_type": "credit_card",
+      "products": [
+        {
+          "id": "1",
+          "name": "beer",
+          "quantity": 3,
+          "price": 8,
+          "comment": "Special offer"
+        },
+        {
+          "id": "2",
+          "name": "crisps",
+          "quantity": 1,
+          "price": 3.99,
+          "comment": "Limited edition"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "status": "new",
+      "customer": {
+        "name": "Downy Jr.",
+        "phone_number": "+1234567892"
+      },
+      "total_sum": 5.5,
+      "payment_type": "credit_card",
+      "products": [
+        {
+          "id": "3",
+          "name": "nuggets",
+          "quantity": 1,
+          "price": 5.5,
+          "comment": "Special offer"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "status": "ready_for_pickup",
+      "customer": {
+        "name": "Harry Potter",
+        "phone_number": "+1234567892"
+      },
+      "total_sum": 4.99,
+      "payment_type": "cash",
+      "products": [
+        {
+          "id": "4",
+          "name": "black coffee",
+          "quantity": 2,
+          "price": 4.99,
+          "comment": ""
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "status": "accepted",
+      "customer": {
+        "name": "Batman",
+        "phone_number": "+1234567892"
+      },
+      "total_sum": 2.45,
+      "payment_type": "cash",
+      "products": [
+        {
+          "id": "5",
+          "name": "black tea",
+          "quantity": 2,
+          "price": 2.45,
+          "comment": "very black tea"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "status": "accepted",
+      "customer": {
+        "name": "Jessy",
+        "phone_number": "+1234567892"
+      },
+      "total_sum": 2.45,
+      "payment_type": "card",
+      "products": [
+        {
+          "id": "6",
+          "name": "ice cream",
+          "quantity": 2,
+          "price": 2.45,
+          "comment": "special ice cream"
+        }
+      ]
+    }
+  ]
+}
